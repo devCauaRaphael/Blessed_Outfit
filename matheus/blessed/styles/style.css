@@ -66,7 +66,8 @@
     --bs-link-hover-color: #0a58ca;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
-    --colorHeader: #EFBF04;
+    --colorNav: #EFBF04;
+   
   }
   
   *,
@@ -90,7 +91,7 @@
     line-height: var(--bs-body-line-height);
     color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
@@ -99,22 +100,21 @@
     transition: all 0.5s ease;
   }
   header{
-    background-color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
     color: var(--colorHeader);
   }
-  header p{
-    color: var(--bs-white);
-  }
-  nav{
-    background-color: var(--bs-border-color);
-  }
-  nav img{
-    border-radius: 50%;
-  }
-  #destaques{
+header p{
+    color: var(--colorNav);
+}
+ nav{
+  background-color: var(--bs-body-color);
+  color: var(--colorNav);
+ }
+
+#destaques{
     text-align: center;
     font-size: 3rem;
-    color: var(--colorHeader);
+    
   }
   hr {
     margin: 1rem 0;
