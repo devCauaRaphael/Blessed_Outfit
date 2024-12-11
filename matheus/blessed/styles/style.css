@@ -67,7 +67,7 @@
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
     --colorNav: #EFBF04;
-   
+  
   }
   
   *,
@@ -96,26 +96,30 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   img:hover{
-    transform: scale(1.02);
-    transition: all 0.5s ease;
+    transform: scale(1.08);
+    transition: all 0.5s linear;
   }
   header{
     background-color: var(--bs-body-bg);
     color: var(--colorHeader);
   }
-header p{
-    color: var(--colorNav);
-}
+
  nav{
   background-color: var(--bs-body-color);
-  color: var(--colorNav);
+ 
  }
 
+ .navbar-nav .nav-link,
+ .navbar-brand,
+ .dropdown-item {
+   color: #EFBF04 !important;
+ }
 #destaques{
     text-align: center;
-    font-size: 3rem;
-    
+    font-size: 2.7rem;
+    text-decoration: overline;
   }
+
   hr {
     margin: 1rem 0;
     color: inherit;
