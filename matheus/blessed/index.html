@@ -16,19 +16,28 @@
     <body>
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="rounded-circle d-flex m mb-4 " style="width: 50px; height: 50px;">
-            <img src="img/blessedLogo.jpeg" class="rounded-circle" width="150" height="70" alt=""
-            loading="lazy "/>       
-        </div>
         <div class="container">
-            <a class="navbar-brand " href="#inicio">Blessed Outfit</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <!-- Logo e Navbar-brand alinhados -->
+            <a class="navbar-brand d-flex align-items-center" id="inicio">
+                <img src="img/blessedLogo.jpeg" class="rounded-circle me-2" width="50" height="50" alt="Blessed Logo" loading="lazy" />
+                Blessed Outfit
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mx-auto mb-0 ms-4">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                <!-- Centralização dos links -->
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#!">About</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                        </a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#destaques">Destaques</a></li>
                             <li><hr class="dropdown-divider" /></li>
@@ -37,6 +46,7 @@
                         </ul>
                     </li>
                 </ul>
+                <!-- Botão Carrinho -->
                 <form class="d-flex">
                     <button class="btn btn-outline-light" type="submit">
                         <i class="bi-cart-fill me-1"></i>
@@ -46,7 +56,8 @@
                 </form>
             </div>
         </div>
-    </nav>    
+    </nav>
+    
         <!-- Header-->
         <header class="bg-lg py-5">
             <div class="container px-4 px-lg-5 my-5">
@@ -262,56 +273,85 @@
                 </div>
             </div>
         </section>
-        <footer class="bg-dark text-center">
-            <!-- Grid container -->
-            <div class="container p-4 pb-0">
-              <!-- Section: Social media -->
-              <section class="mb-4">
-                <div class="rounded-circle bg-dark shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 50px; height: 50px;">
-                    <img src="img/blessedFachada.jpeg" class="rounded-circle" width="150" height="100" alt=""
-                         loading="lazy" />
-                  </div>
-                <!-- Facebook -->
-                <a
-                data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                  href="#!"
-                  role="button"
-                  ><i class="bi bi-geo-alt"></i>
-                </a>
-          
-                <!-- Twitter -->
-                <a
-                  data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                 
-                  href="#!"
-                  role="button"
-                  ><i class="bi bi-whatsapp"></i>
-                </a>
-          
-              
-          
-                <!-- Instagram -->
-                <a
-                  data-mdb-ripple-init
-                  class="btn text-white btn-floating m-1"
-                  href="https://www.instagram.com/blessedoutfit__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">      
-                  <i class="bi bi-instagram"></i>
-                </a>
-          
-              </section>
-              <!-- Section: Social media -->
+    <!-- Footer -->
+    <footer class="text-center text-white bg-dark">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a id="inicio" href="#inicio"  class="text-white">Inicio</a>
+              </h6>
             </div>
-            <!-- Grid container -->
-          
-            <!-- Copyright -->
-            <div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 0.05);">
-              © 2024 Copyright: <a class=" text-white" href="https://www.instagram.com/blessedoutfit__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">BlessedOutfit</a>
-             
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="https://www.instagram.com/blessedoutfit__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank" class="text-white">contato</a>
+              </h6>
             </div>
-            <!-- Copyright -->
-          </footer>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
+  
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                distinctio earum repellat quaerat voluptatibus placeat nam,
+                commodi optio pariatur est quia magnam eum harum corrupti
+                dicta, aliquam sequi voluptate quas.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="https://www.google.com.br/maps/place/Av.+Jo%C3%A3o+Ventura+dos+Santos,+1428+-+Helena+Maria,+Osasco+-+SP,+06260-170/@-23.4947491,-46.7958884,17z/data=!3m1!4b1!4m6!3m5!1s0x94cefe7bb0ce6e2b:0x7c97b42fb8f08bc9!8m2!3d-23.4947491!4d-46.7933135!16s%2Fg%2F11hbny_yjf?entry=ttu&g_ep=EgoyMDI0MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-white me-4"></a>
+            <i class="bi bi-geo-alt"></i>
+        
+          <a href="" class="text-white me-4"> </a>
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/blessedoutfit__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank"class="text-white me-4"></a> 
+          <i class="bi bi-instagram"></i>
+          
+          
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2024 Copyright:
+        <a class="text-white" href="https://www.instagram.com/blessedoutfit__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank"class="text-white me-4"
+           >BlessedOutfit.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
