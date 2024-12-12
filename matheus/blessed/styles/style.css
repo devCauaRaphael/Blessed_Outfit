@@ -108,7 +108,24 @@
   background-color: var(--bs-body-color);
 
  }
-
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+     background-color: rgba(0, 0, 0, 0.5);
+     border-radius: 50%;
+ }
+ .carousel-item {
+     padding: 20px 0;
+ }
+ .card {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transition: transform 0.2s;
+ }
+ .card:hover {
+     transform: scale(1.05);
+ }
+footer{
+   width: 100%;
+}
  .navbar-nav .nav-link,
  .navbar-brand,
  .dropdown-item {

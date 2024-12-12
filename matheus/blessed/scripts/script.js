@@ -15,4 +15,3 @@ cartButtonList.forEach((button) => {
        
     });
 });
-
