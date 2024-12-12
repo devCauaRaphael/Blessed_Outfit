@@ -108,30 +108,23 @@
   background-color: var(--bs-body-color);
 
  }
- .carousel-control-prev-icon,
- .carousel-control-next-icon {
-     background-color: rgba(0, 0, 0, 0.5);
-     border-radius: 50%;
+ .next01 img, .prev01 img, .next02 img, .prev02 img, .next03 img, .prev03 img {
+  width: 3em;
+  height: auto;
  }
- .carousel-item {
-     padding: 20px 0;
- }
- .card {
+ .card{
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
      transition: transform 0.2s;
  }
  .card:hover {
      transform: scale(1.05);
  }
-footer{
-   width: 100%;
-}
  .navbar-nav .nav-link,
  .navbar-brand,
  .dropdown-item {
    color: #EFBF04 !important;
  }
-#destaques{
+#destaques, #camisas, #bones{
     text-align: center;
     font-size: 2.7rem;
     text-decoration: overline;
