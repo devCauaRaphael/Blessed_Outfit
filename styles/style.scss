@@ -1,1 +1,64 @@
-@import "bootstrap/scss/bootstrap.scss";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F9F9F9!important;
+}
+nav {
+  background-color: #010101!important;
+  div{
+    a#inicio{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #f9f9f9!important;
+      img{
+        border: 2px solid #f9f9f9!important;
+      }
+    }
+  }
+ul{
+  li{
+    a{
+      color: #f9f9f9!important;
+      font-weight: 650!important;
+    }
+  }
+}
+}
+header{
+background: url(../img/fundoEntrada.png) no-repeat center;
+background-size: 210vh;
+div{
+  div{
+    h1{
+      color: #f9f9f9!important;;
+    }
+  }
+}
+}
+
+
+
+h1#destaques, h1#camisas, h1#bones{
+  font-size: 3rem;
+  font-family: "Hind Mysuru"!important;
+  margin-top: 5rem;
+  text-decoration-color: #DAA520;
+}
+footer{
+  background-color: #010101!important;
+}
+@media screen and (max-width: 600px) {
+  header{
+    background: url(../img/fundoEntradaMobile.png) no-repeat center;
+    background-size: cover;
+    div{
+      div{
+        h1{
+          color: #f9f9f9!important;;
+        }
+      }
+    }
+    }
+}

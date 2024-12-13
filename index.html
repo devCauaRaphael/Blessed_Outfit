@@ -6,21 +6,26 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Blessed Outfit</title>
+        <!--Fontes google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="img/blessedLogo.jpeg" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
      <link rel="stylesheet" href="styles/style.css">
+     <link rel="stylesheet" href="styles/bootstrap.css">
     </head>
     <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container">
             <!-- Logo e Navbar-brand alinhados -->
-            <a class="navbar-brand d-flex align-items-center" id="inicio">
+            <a class="navbar-brand d-flex align-items-center --bs-gray-200" id="inicio">
                 <img src="img/blessedLogo.jpeg" class="rounded-circle me-2" width="50" height="50" alt="Blessed Logo" loading="lazy" />
-                Blessed Outfit
+                BLESSED OUFIT
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,14 +34,14 @@
                 <!-- Centralização dos links -->
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">INÍCIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#!">About</a>
+                        <a class="nav-link" href="#!">SOBRE-NÓS</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Categorias
+                            CATEGORIAS
                         </a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#destaques">Destaques</a></li>
@@ -62,17 +67,16 @@
         <header class="bg-lg py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center">
-                    <h1 class="display-4 fw-bolder">Se vista com estilo</h1>
-                  
+                    <h1 class="display-4 fw-bolder">SE VISTA COM ESTILO</h1>
                 </div>
             </div>
         </header>
         <h1 id="destaques">
-                Destaques
+                CONJUNTOS
         </h1>
-        <!-- Section-->
+        <!-- Section: Conjuntos -->
         <section class="py-5">
-            <div class="container px-4 px-dark-5 mt-5">
+            <div class="container px-1 px-dark-5">
                 <!-- Primeiro carrossel -->
                 <div id="manualCarousel" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-inner">
@@ -88,7 +92,7 @@
                                             </div>
                                         </div>
                                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +106,7 @@
                                             </div>
                                         </div>
                                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                            <div class="text-center" id="adicionarCarrinho"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -120,7 +124,7 @@
                                             </div>
                                         </div>
                                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -157,10 +161,10 @@
             </div>
         </section>
         <h1 id="camisas">
-            Camisas
+            CAMISAS
 
         </h1>
-        <!-- Segundo carrossel -->
+        <!-- Section Camisas -->
         <div class="container px-4 px-dark-5 mt-5">
         <div id="carousel2" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
@@ -176,7 +180,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Buy now</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +194,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +212,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +226,7 @@
                                     </div>
                                 </div>
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                                 </div>
                             </div>
                         </div>
@@ -244,9 +248,9 @@
         </div>
         </div>
         <h1 id="bones">
-            Bonés
+            BONÉS
         </h1>
-        <!-- Terceiro carrossel -->
+        <!-- Section: Bones -->
         <div class="container px-4 px-dark-5 mt-5">
 <div id="carousel3" class="carousel slide" data-bs-ride="false">
     <div class="carousel-inner">
@@ -262,7 +266,7 @@
                             </div>
                         </div>
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Buy now</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                         </div>
                     </div>
                 </div>
@@ -276,7 +280,7 @@
                             </div>
                         </div>
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                         </div>
                     </div>
                 </div>
@@ -294,7 +298,7 @@
                             </div>
                         </div>
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
                         </div>
                     </div>
                 </div>
@@ -329,8 +333,1986 @@
     </button>
 </div>
 </div>
+<h1 id="bones">
+    BERMUDAS JEANS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+<h1 id="bones">
+    BERMUDAS TACTEL
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</div>
+<h1 id="bones">
+    CALÇA
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CAMISETAS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CAMISETAS TIME
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+   CAMISETAS DRY-FIT
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CAMISETAS G1
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CAMISETAS INFANTIL
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CAMISETAS POLO
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CARTEIRAS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CHINELOS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CINTOS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    COPOS STANLEY
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CORRENTINHAS e PINGENTES
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CREMES
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    CUECAS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    LUPAS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    MEIAS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    MOLETOM
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    PERFUMES
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    REGATAS BASQUETE
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    RELÓGIOS
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+<h1 id="bones">
+    TÊNIS 
+</h1>
+<!-- Section: Bones -->
+<div class="container px-4 px-dark-5 mt-5">
+<div id="carousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+<div class="carousel-item active">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 1">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 1</h5>
+                        $200.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 2">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 2</h5>
+                        $300.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 3">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 3</h5>
+                        $400.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#" id="adicionarCarrinho">Adicionar no carrinho</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="col mb-5">
+            <div class="card h-100">
+                <img class="card-img-top w-100" src="img/bone.jpeg" alt="Item 4">
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h5 class="fw-bolder">Item 4</h5>
+                        $500.00
+                    </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Adicione ao carrinho</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+<div class="prev03">
+    <img src="img/prevBtn.png" alt="">
+</div>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+<div class="next03">
+    <img src="img/nextBtn.png" alt="">
+</div>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
     <!-- Footer -->
-    <footer class="text-center text-white bg-dark">
+    <footer class="text-center text-white">
       <!-- Grid container -->
       <div class="container">
         <!-- Section: Links -->
@@ -374,13 +2356,13 @@
         <!-- Section: Social -->
         <section class="text-center mb-5">
           <a href="https://www.google.com.br/maps/place/Av.+Jo%C3%A3o+Ventura+dos+Santos,+1428+-+Helena+Maria,+Osasco+-+SP,+06260-170/@-23.4947491,-46.7958884,17z/data=!3m1!4b1!4m6!3m5!1s0x94cefe7bb0ce6e2b:0x7c97b42fb8f08bc9!8m2!3d-23.4947491!4d-46.7933135!16s%2Fg%2F11hbny_yjf?entry=ttu&g_ep=EgoyMDI0MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="text-white me-4"></a>
-            <i class="bi bi-geo-alt"></i>
+            <i class="bi bi-geo-alt fs-1"></i>
         
           <a href="" class="text-white me-4"> </a>
-            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-whatsapp fs-1"></i>
           </a>
           <a href="https://www.instagram.com/blessedoutfit__?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="target="_blank"class="text-white me-4"></a> 
-          <i class="bi bi-instagram"></i>
+          <i class="bi bi-instagram fs-1"></i>
           
           
         </section>
