@@ -13,7 +13,7 @@ nav {
   background-color: #010101!important;
   position: fixed!important;
   ul.dropdown-menu, ul#itensNav{
-    
+    position: relative!important;
     background-color: #010101!important;
     transition: opacity 0.5s!important;
     li{
