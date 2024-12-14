@@ -31,10 +31,12 @@ header div div h1 {
   color: #f9f9f9 !important;
 }
 
-h1#destaques, h1#camisas, h1#bones, h1#bmdJeans, h1#times, h1#times, h1#conjuntos, h1#meias, h1#lupas, h1#cintos {
+h1 {
   font-size: 3rem;
   font-family: "Hind Mysuru" !important;
   margin-top: 5rem;
+  text-align: center;
+  text-decoration: overline;
   text-decoration-color: #DAA520;
 }
 
