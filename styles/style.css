@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,7 +9,17 @@ body {
 }
 
 nav {
+  z-index: 10 !important;
+  width: 100%;
   background-color: #010101 !important;
+  position: fixed !important;
+}
+nav ul.dropdown-menu, nav ul#itensNav {
+  background-color: #010101 !important;
+  transition: opacity 0.5s !important;
+}
+nav ul.dropdown-menu li a:hover, nav ul#itensNav li a:hover {
+  background-color: #DAA520 !important;
 }
 nav div a#inicio {
   font-size: 1.5rem;
@@ -28,6 +39,7 @@ header {
   background-size: 210vh;
 }
 header div div h1 {
+  margin-top: 10rem;
   color: #f9f9f9 !important;
 }
 

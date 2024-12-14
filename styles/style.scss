@@ -1,13 +1,29 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   
 }
 body{
   background-color: #F9F9F9!important;
 }
 nav {
+  z-index: 10!important;  
+  width: 100%;
   background-color: #010101!important;
+  position: fixed!important;
+  ul.dropdown-menu, ul#itensNav{
+    
+    background-color: #010101!important;
+    transition: opacity 0.5s!important;
+    li{
+      a:hover{
+        background-color: #DAA520!important;
+      }
+    }
+    
+  }
+ 
   div{
     a#inicio{
       font-size: 1.5rem;
@@ -33,6 +49,7 @@ background-size: 210vh;
 div{
   div{
     h1{
+      margin-top: 10rem;
       color: #f9f9f9!important;;
     }
   }
