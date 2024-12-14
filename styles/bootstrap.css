@@ -118,11 +118,7 @@
  .card:hover {
      transform: scale(1.05);
  }
-#destaques, #camisas, #bones{
-    text-align: center;
-    font-size: 2.7rem;
-    text-decoration: overline;
-  }   
+
 
   hr {
     margin: 1rem 0;
