@@ -52,9 +52,12 @@ h1, h1#bones, h1#destaques, h1#camisas {
   text-decoration: overline;
   text-decoration-color: #DAA520;
 }
-
-footer {
-  background-color: #010101 !important;
+footer{
+  background-color: #000;
+}
+footer i{
+    text-decoration: none;
+    color: inherit;  
 }
 
 .next01 img, .prev01 img, .next02 img, .prev02 img, .next03 img, .prev03 img,

@@ -68,6 +68,16 @@ h1, h1#bones, h1#destaques, h1#camisas{
 footer{
   background-color: #010101!important;
 }
+footer{
+   i{
+   text-decoration: none;
+   color: inherit;
+  }
+
+}
+
+
+
 .next01 img, .prev01 img, .next02 img, .prev02 img, .next03 img, .prev03 img,
 .next04 img, .prev04 img, .next05 img, .prev05 img, .next06 img, .prev06 img,
 .next07 img, .prev07 img, .next08 img, .prev08 img, .next09 img, .prev09 img,
@@ -92,7 +102,7 @@ footer{
     }
     }
     nav{
-      position: relative !important;
+      position: fixed!important;
     }
     ul.dropdown-menu {
       width: 100%; /* Ocupa toda a largura */
