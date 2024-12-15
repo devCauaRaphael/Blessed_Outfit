@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -11,8 +12,8 @@ body {
 nav {
   z-index: 10 !important;
   width: 100%;
-  background-color: #010101 !important;
   position: fixed !important;
+  background-color: #010101 !important;
 }
 nav ul.dropdown-menu, nav ul#itensNav {
   background-color: #010101 !important;
@@ -77,18 +78,31 @@ footer {
     color: #f9f9f9 !important;
   }
   nav {
-    z-index: 10 !important;
-    width: 100%;
-    background-color: #010101 !important;
-  }
-  nav ul.dropdown-menu, nav ul#itensNav {
-    background-color: #010101 !important;
-    transition: opacity 0.5s !important;
-  }
-  nav ul.dropdown-menu li a:hover, nav ul#itensNav li a:hover {
-    background-color: #DAA520 !important;
-  }
-  nav .dropdown-menu,  nav#itensNav {
     position: relative !important;
+  }
+  ul.dropdown-menu {
+    width: 100%; /* Ocupa toda a largura */
+    position: static !important; /* Permite que o dropdown se adapte ao fluxo */
+    max-height: calc(100vh - 120px); /* Altura máxima adaptada ao tamanho da tela */
+    overflow-y: auto; /* Ativa a rolagem se necessário */
+    padding: 10px 0; /* Espaçamento interno */
+  }
+  ul.dropdown-menu li a {
+    font-size: 16px; /* Aumenta a legibilidade */
+    padding: 10px 20px; /* Mais espaçamento interno */
+    text-align: center; /* Centraliza os textos */
+    color: #fff !important; /* Garante contraste */
+  }
+  ul.dropdown-menu li a:hover {
+    background-color: #DAA520 !important; /* Destaque para o hover */
+    color: #000 !important; /* Contraste ao passar o mouse */
+  }
+  /* Adiciona bordas para separar os itens */
+  ul.dropdown-menu li {
+    border-bottom: 1px solid #333; /* Linha separadora */
+  }
+  /* Remove linha separadora do último item */
+  ul.dropdown-menu li:last-child {
+    border-bottom: none;
   }
 }/*# sourceMappingURL=style.css.map */
