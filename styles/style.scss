@@ -1,12 +1,32 @@
 *{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  
 }
 body{
   background-color: #F9F9F9!important;
 }
 nav {
+  z-index: 10!important;  
+  width: 100%;
   background-color: #010101!important;
+  position: fixed!important;
+  ul.dropdown-menu, ul#itensNav{
+    
+    background-color: #010101!important;
+    transition: opacity 0.5s!important;
+    
+    li{
+      a:hover{
+        background-color: #DAA520!important;
+      }
+    }
+    
+  }
+  nav .dropdown-menu{
+    position: relative !important;
+  }
   div{
     a#inicio{
       font-size: 1.5rem;
@@ -32,12 +52,15 @@ background-size: 210vh;
 div{
   div{
     h1{
+      margin-top: 10rem;
       color: #f9f9f9!important;;
     }
   }
 }
 }
+footer{
 
+}
 h1, h1#bones, h1#destaques, h1#camisas{
   font-size: 3rem;
   font-family: "Hind Mysuru"!important;
@@ -53,7 +76,7 @@ footer{
 .next01 img, .prev01 img, .next02 img, .prev02 img, .next03 img, .prev03 img,
 .next04 img, .prev04 img, .next05 img, .prev05 img, .next06 img, .prev06 img,
 .next07 img, .prev07 img, .next08 img, .prev08 img, .next09 img, .prev09 img,
-.next10 img, .prev10 img, .next12 img, .prev12 img,
+.next10 img, .prev10 img, .next11 img, .prev11 img, .next12 img, .prev12 img,
 .next13 img, .prev13 img, .next14 img, .prev14 img, .next15 img, .prev15 img,
 .next16 img, .prev16 img, .next17 img, .prev17 img, .next18 img, .prev18 img,
 .next19 img, .prev19 img, .next20 img, .prev20 img, .next21 img, .prev21 img,
