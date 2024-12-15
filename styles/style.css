@@ -12,7 +12,7 @@ nav {
   z-index: 10 !important;
   width: 100%;
   background-color: #010101 !important;
-  position: fixed;
+  position: fixed !important;
 }
 nav ul.dropdown-menu, nav ul#itensNav {
   background-color: #010101 !important;
@@ -20,9 +20,6 @@ nav ul.dropdown-menu, nav ul#itensNav {
 }
 nav ul.dropdown-menu li a:hover, nav ul#itensNav li a:hover {
   background-color: #DAA520 !important;
-}
-nav nav .dropdown-menu {
-  position: relative !important;
 }
 nav div a#inicio {
   font-size: 1.5rem;
@@ -78,5 +75,20 @@ footer {
   }
   header div div h1 {
     color: #f9f9f9 !important;
+  }
+  nav {
+    z-index: 10 !important;
+    width: 100%;
+    background-color: #010101 !important;
+  }
+  nav ul.dropdown-menu, nav ul#itensNav {
+    background-color: #010101 !important;
+    transition: opacity 0.5s !important;
+  }
+  nav ul.dropdown-menu li a:hover, nav ul#itensNav li a:hover {
+    background-color: #DAA520 !important;
+  }
+  nav .dropdown-menu,  nav#itensNav {
+    position: relative !important;
   }
 }/*# sourceMappingURL=style.css.map */
