@@ -1,6 +1,6 @@
 <h1>👗 Blessed Outfits</h1>
 
-<img src="img/logo-blessed.png" alt="Logo da Blessed Outfits" style="width: 100%; max-width: 600px; margin-bottom: 20px;">
+<img src="img/siteBlessed.png" alt="Site em execução" style="width: 100%; max-width: 600px; margin-bottom: 20px;">
 
 <p>
   Projeto realizado para uma empresa real chamada Blessed Outfits, o site expõe o catálogo de produtos, cria pedidos que são encaminhados via WhatsApp e é totalmente responsivo 🚀  
